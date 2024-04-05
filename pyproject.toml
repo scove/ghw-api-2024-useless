@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "not-a-uk-banking-holiday"
+version = "0.0.1"
+description = "\"This library will tell you that a certain date is not a banking holiday in the U.K.\""
+authors = ["Sam Coveney"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.1"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
